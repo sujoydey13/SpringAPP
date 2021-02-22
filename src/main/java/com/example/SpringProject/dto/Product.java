@@ -2,7 +2,7 @@ package com.example.SpringProject.dto;
 
 public class Product {
     private boolean instock;
-    private int salePrice;
+    private double salePrice;
     private String description;
     private String title;
 
@@ -14,11 +14,11 @@ public class Product {
         this.instock = instock;
     }
 
-    public int getSalePrice() {
+    public double getSalePrice() {
         return salePrice;
     }
 
-    public void setSalePrice(int salePrice) {
+    public void setSalePrice(double salePrice) {
         this.salePrice = salePrice;
     }
 

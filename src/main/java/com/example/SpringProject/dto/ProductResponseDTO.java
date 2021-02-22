@@ -3,13 +3,13 @@ package com.example.SpringProject.dto;
 import java.util.List;
 
 public class ProductResponseDTO {
-    private List<Product> productList;
+    private List<Object> productList;
 
-    public List<Product> getProductList() {
+    public List<Object> getProductList() {
         return productList;
     }
 
-    public void setProductList(List<Product> productList) {
+    public void setProductList(List<Object> productList) {
         this.productList = productList;
     }
 }
