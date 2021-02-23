@@ -2,6 +2,15 @@ package com.example.SpringProject.dto;
 
 public class ProductRequestDTO {
     private String searchTerm;
+    private String stockLocation;
+
+    public String getStockLocation() {
+        return stockLocation;
+    }
+
+    public void setStockLocation(String stockLocation) {
+        this.stockLocation = stockLocation;
+    }
 
     public String getSearchTerm() {
         return searchTerm;
@@ -11,10 +20,4 @@ public class ProductRequestDTO {
         this.searchTerm = searchTerm;
     }
 
-    @Override
-    public String toString() {
-        return "ProductRequestDTO{" +
-                "searchTerm='" + searchTerm + '\'' +
-                '}';
-    }
 }
